@@ -1,0 +1,108 @@
+.subtitulos{
+    font-size: 75px;
+    text-align: left;
+}
+
+.texto{
+    font-size: 50px;
+    text-align: center;
+}
+*{
+    color: aliceblue;
+}
+ol{
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+a{
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+    font-size: 50px;
+}
+
+ul li::before {
+  content: "◆";
+  font-size: 50px;
+  margin-right: 8px;
+}
+header {
+    margin: 60px 0 250px;
+}
+section{
+    margin: 60px 0 250px;
+}
+ol li {
+  margin: 75px 0;
+}
+ol li:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+#primeira{
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+}
+
+#segunda{
+    font-family: 'IM Fell English SC', serif;
+}
+
+#terceira{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+
+#quarta{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 3px;
+}
+
+#quinta{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+#sexta{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#setima{
+  font-family: 'Lora', serif;
+  letter-spacing: 2px;
+}
+
+#oitava{
+  font-family: 'Cinzel Decorative', serif;
+  letter-spacing: 3px;
+}
+
+#nona{
+    font-family: 'Pacifico', cursive;
+}
+
+#decima{
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+}
+
+#decPrima{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#decSecun{
+    font-size: 60px;
+    font-family: 'Teko', sans-serif;
+}

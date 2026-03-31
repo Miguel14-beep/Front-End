@@ -1,0 +1,41 @@
+#topo{
+    font-family: "charm", cursive;
+    text-align: center;
+    font-size: 100px;
+}
+
+#Worship{
+    font-family: "Charm", cursive;
+    text-align: center;
+    font-size: 100px;
+}
+
+body {
+  background-color: black;
+}
+
+h1, h2, h3, p{
+    color: rgb(225, 225, 225);
+}
+h1{
+    font-size: 50;
+}
+
+ol, ul {
+    color: rgb(225, 225, 225);
+    font-size: 8px;
+  }
+li{
+    font-size: 30px;
+}
+a{
+    color: rgb(225, 225, 225);
+}
+.nav li::before {
+  content: "◆";
+  font-size: 35px;
+  margin-right: 8px;
+}
+.nav{
+    font-size: 30px;
+}

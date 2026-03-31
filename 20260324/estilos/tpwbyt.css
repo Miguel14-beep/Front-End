@@ -1,0 +1,203 @@
+header h1{
+    font-size: 300px;
+}
+header h2{
+    font-size: 150px;
+}
+header{
+    text-align: center;
+    
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../imagens/04_tpwbyt_cover.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #f0f0f0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+footer{
+    text-align: right;
+    background: linear-gradient(to bottom,
+     #1b4f72 0%,   
+     #2e6f9e 30%,
+     #1e5f9e 60%,
+     #00008b 100%);
+     color: #f0f0f0;
+     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+nav a, nav{
+    color: #f0f0f0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    
+}
+nav{
+     background: linear-gradient(to bottom,
+     #1b4f72 0%,   
+     #2e6f9e 30%,
+     #1e5f9e 60%,
+     #00008b 100%);
+     color: #f0f0f0;
+     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+nav ul li::before {
+  content: "◆";
+  font-size: 30px;
+  margin-right: 8px;
+}
+nav ul li{
+    font-size: 30px;
+}
+p{
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    font-size: 70px;
+    margin-top: 0;
+}
+
+footer p{
+    text-align: right;
+    font-size: 25px;
+
+}
+header{
+    background-image: url(../imagens/04_tpwbyt_cover.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    border-width: 3px;
+    padding: 20px;
+    overflow: hidden;
+}
+h1, header {
+    margin: 0;
+    border-width: 3px;
+    padding: 20px;
+    overflow: hidden;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+main{
+
+    padding: 20px;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom,
+     #1b4f72 0%, 
+     #2e6f9e 30%,
+     #1e5f9e 60%,
+     #00008b 100%);
+     color: #f0f0f0;
+     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+     border-width: 5px;
+     border-style: solid;
+     border-radius: 20px;
+     border-color: #1e5f9e;
+     font-family: 'cinzel', serif;
+     
+}
+nav{
+    padding: 20px;
+    background-attachment: fixed;
+    border-width: 3px;
+    border-bottom-width: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: solid;
+    border-color: #9fc5f8;
+    font-family: 'cinzel', serif;
+}
+footer{
+     padding: 20px;
+     background-attachment: fixed;
+     border-width: 3px;
+     border-top-width: 0px;
+     border-style: solid;
+     border-color: #9fc5f8;
+     font-family: 'cinzel', serif;
+     padding-bottom: 0px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+    padding: 20px;
+    background-image: url(../imagens/04_tpwbyt_cover.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.imagens{
+    width: 90%;
+    height: 325px;
+    aspect-ratio: 3 / 2;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border-radius: 10px;
+
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    text-decoration: none;
+    font-weight:500;
+    font-style: italic;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+a{
+    color: #f0f0f0;
+}
+
+
+.atlan{
+    background-image: url(../imagens/01_atlantic.webp);
+}
+.hyp{
+    background-image: url(../imagens/02_hypnosis.webp);
+}
+.mine{
+    background-image: url(../imagens/03_mine.webp);
+}
+.like{
+    background-image: url(../imagens/04_like_that.webp);
+}
+.love{
+    background-image: url(../imagens/05_the_love_you_want.webp);
+}
+.fall{
+    background-image: url(../imagens/06_fall_for_me.webp);
+}
+.alka{
+    background-image: url(../imagens/07_alkaline.webp);
+}
+.distra{
+    background-image: url(../imagens/08_distraction.webp);
+}
+.descen{
+    background-image: url(../imagens/09_descending.webp);
+}
+.telo{
+    background-image: url(../imagens/10_telomeres.webp);
+}
+.high{
+    background-image: url(../imagens/11_high_water.webp);
+}
+.missing{
+    background-image: url(../imagens/12_missing_limbs.webp);
+}

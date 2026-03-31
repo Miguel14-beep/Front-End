@@ -1,8 +1,39 @@
 header h1{
     font-size: 300px;
+    text-transform: uppercase;
+    font-weight: bold;
+   background: linear-gradient(
+    to left,
+  #ffffff 0%,
+  #d9d9d9 50%,
+  #a6a6a6 100%
+    );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.09);
+  background-clip: text;
+  color: transparent;
+  background-attachment: fixed;
 }
 header h2{
     font-size: 150px;
+    background: linear-gradient(
+    to bottom,
+    #3f7faf 0%,   
+    #4a90c2 30%,
+    #3b7fc4 60%,
+    #1a1aff 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.09);
+  background-attachment: fixed;
 }
 header{
     text-align: center;
@@ -31,9 +62,20 @@ footer{
      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 nav a, nav{
-    color: #f0f0f0;
+    
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     
+}
+a:hover {
+    color: rgb(0, 157, 255);
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:active {
+    color: rgb(0, 234, 255);
 }
 nav{
      background: linear-gradient(to bottom,
@@ -55,6 +97,7 @@ nav ul li{
 p{
     font-size: 50px;
     text-align: center;
+    text-indent: 20px;
 }
 h3{
     font-size: 70px;
@@ -101,6 +144,11 @@ main{
      border-color: #1e5f9e;
      font-family: 'cinzel', serif;
      
+}
+p {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 nav{
     padding: 20px;

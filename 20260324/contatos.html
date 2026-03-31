@@ -6,36 +6,69 @@
 
     <style>
         body {
-            background-color: black;
+            background: linear-gradient(to bottom, #1a1a1a, #3b2f2f);
+            color: #f5f5f5;
             font-family: Arial, sans-serif;
-            color: aliceblue;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
         }
 
         h1 {
-            color: darkred;
-            font-size: 75px;
-            text-align: left;
+            font-size: 45px;
+            color: #e0b084;
         }
 
         p {
-            font-size: 50px;
-            text-align: center;
+            font-size: 18px;
+        }
+
+        .container {
+            background-color: rgba(0,0,0,0.6);
+            padding: 30px;
+            border-radius: 15px;
         }
 
         a {
-            color: green;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e0b084;
+            color: black;
             text-decoration: none;
+            border-radius: 8px;
             font-weight: bold;
-            font-size: 50px;
-            text-align: center;
+        }
+
+        a:hover {
+            background-color: #ffffff;
+        }
+
+        .link-site {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .link-site:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 
 <body>
-    <h1>Contato</h1>
-    <p><a href="https://www.sleep-token.com/live/">Site Oficial da banda.</a></p>
+    <div class="container">
+        <h1>Contato</h1>
 
-    <a href="sundowning.html">Voltar para a página inicial</a>
+        <p>Quer saber mais sobre a banda?</p>
+
+        <p>
+            <strong>Site oficial:</strong><br>
+            <a class="link-site" href="https://www.sleep-token.com/live/" target="_blank">
+                https://www.sleep-token.com/live/
+            </a>
+        </p>
+
+        <a href="index.html">Voltar para a página inicial</a>
+    </div>
 </body>
 </html>
